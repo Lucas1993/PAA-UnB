@@ -64,15 +64,16 @@ void merge_sort(int ini, int fim){
 int main(int argc, char *argv[]){
 	int n = 0;
 	
-	if(argc == 1){
-		printf("Tem que passar um parametro k\n");
+	if(argc < 3){
+		printf("Tem que passar dois parametros: arq_ent, k\n");
 		return 1;
 	}
-	k = atoi(argv[1]);
+	FILE *fp;
+	fp = fopen(argv[1], "r");
 	v = malloc(3300000*sizeof(string_dado));
 	aux = malloc(3300000*sizeof(string_dado));
-	
-	for(; scanf("%s", v[n].s) == 1; n++);
+
+	for(; fscanf(fp,"%s", v[n].s) == 1; n++);
 	
 	merge_sort(0,n-1);
 	
