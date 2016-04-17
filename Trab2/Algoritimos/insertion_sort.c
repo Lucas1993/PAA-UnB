@@ -35,8 +35,8 @@ int main(){
 	insertion_sort(n);
 	
 	int i;
-	for(i = 0; i < n; i++)
-		printf("%s\n", v[i].s);
+//	for(i = 0; i < n; i++)
+//		printf("%s\n", v[i].s);
 	
 	return 0;
 }

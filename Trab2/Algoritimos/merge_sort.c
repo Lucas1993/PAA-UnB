@@ -52,8 +52,8 @@ int main(){
 	merge_sort(0,n-1);
 	
 	int i;
-	for(i = 0; i < n; i++)
-		printf("%s\n", v[i].s);
+//	for(i = 0; i < n; i++)
+//		printf("%s\n", v[i].s);
 	
 	return 0;
 }
