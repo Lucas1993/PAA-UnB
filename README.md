@@ -10,3 +10,6 @@ Rodar diferentes algoritmos de ordenaçao com varios tipos de entrada e comparar
 
 ### Trab 3
 Trab chato. Verificar se uma função é limite superior/inferior de outra.
+
+### Trab 4
+Fazer os exercicios: [TSORT](http://www.spoj.com/problems/TSORT/), [FARIDA](http://www.spoj.com/problems/FARIDA/), [KNAPSACK](http://www.spoj.com/problems/KNAPSACK/), [EDIST](http://www.spoj.com/problems/EDIST/).
